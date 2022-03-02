@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: /* top, transparent black, faked with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), /* bottom, image */
+    url(https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png);
+}
+
+
+/* Navbar */
+
+#navbar {
+    padding: 20px 0 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#nav-icon {
+    width: 15%;
+}
+
+
+/* Search-box */
+
+#search {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#search>h1 {
+    margin: 0;
+    color: white;
+    font-size: 55px;
+}
+
+#search>input {
+    width: 80%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+#imgdiv {
+    border: 1px solid rgb(93, 95, 95);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#imgdiv>div {
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+#title {
+    color: rgb(247, 10, 77);
+    font-size: 20px;
+}
+
+#imgdiv>img {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
